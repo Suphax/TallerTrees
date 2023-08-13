@@ -1,27 +1,48 @@
-﻿Mods: {
-	HighTrees: {
+Mods: {
+	TallerTrees: {
 		Configs: {
-			Label: {
-				Title:Tree Height Configuration
-				MinMost:Minimum Most Tree Height
-				MaxMost:Maximum Most Tree Height
-				MinGem:Minimum Gem Tree Height
-				MaxGem:Maximum Gem Tree Height
-				MinSakura:Minimum Sakura Tree Height
-				MaxSakura:Maximum Sakura Tree Height
-				MinWillow:Minimum Willow Tree Height
-				MaxWillow:Maximum Willow Tree Height
-			}
+			TallerTreesConfig: {
+				DisplayName: Tree Height Configuration
 
-			Tooltip: {
-				MinMost:Minimum base height for most trees. Requires a Reload. Note that palm trees are not included.
-				MaxMost:Maximum base height for most trees. Requires a Reload. Note that palm trees are not included.
-				MinGem:Minimum base height for gem trees. Requires a Reload.
-				MaxGem:Maximum base height for gem trees. Requires a Reload.
-				MinSakura:Minimum base height for sakura trees. Requires a Reload.
-				MaxSakura:Maximum base height for sakura trees. Requires a Reload.
-				MinWillow:Minimum base height for willow trees. Requires a Reload.
-				MaxWillow:Maximum base height for willow trees. Requires a Reload.
+				StandardTreesMinimumHeight: {
+					Label: Standard Trees Minimum Height
+					Tooltip: Minimum base height for most trees. Requires a Reload. Note that palm trees are not included.
+				}
+
+				StandardTreesMaximumHeight: {
+					Label: Standard Trees Maximum Height
+					Tooltip: Maximum base height for most trees. Requires a Reload. Note that palm trees are not included.
+				}
+
+				GemTreesMinimumHeight: {
+					Label: Gem Trees Minimum Height
+					Tooltip: Minimum base height for gem trees. Requires a Reload.
+				}
+
+				GemTreesMaximumHeight: {
+					Label: Gem Trees Maximum Height
+					Tooltip: Maximum base height for gem trees. Requires a Reload.
+				}
+
+				SakuraTreeMinimumHeight: {
+					Label: Sakura Tree Minimum Height
+					Tooltip: Minimum base height for sakura trees. Requires a Reload.
+				}
+
+				SakuraTreeMaximumHeight: {
+					Label: Sakura Tree Maximum Height
+					Tooltip: Maximum base height for sakura trees. Requires a Reload.
+				}
+
+				WillowTreeMinimumHeight: {
+					Label: Willow Tree Minimum Height
+					Tooltip: Minimum base height for willow trees. Requires a Reload.
+				}
+
+				WillowTreeMaximumHeight: {
+					Label: Willow Tree Maximum Height
+					Tooltip: Maximum base height for willow trees. Requires a Reload.
+				}
 			}
 		}
 	}
